@@ -1,0 +1,22 @@
+.node--type-hatona {
+  .node__submitted {
+    display: none;
+  }
+  .field--name-field-position {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+  }
+
+  .node__content {
+    padding: 1em 0;
+    text-align: left;
+  }
+  .field--name-field-image {
+    text-align: center;
+    img {
+      border-radius: 50%;
+      width: 200px;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@include min-screen($screen-md-min) {
+
+  .partner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner_summary {
+    padding-left: 2rem;
+    width: 30%;
+  }
+}

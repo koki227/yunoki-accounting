@@ -1,0 +1,35 @@
+.view-slideshow {
+  .slick-list img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .slick-dots {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+    li + li {
+      margin-left: 12px;
+    }
+  
+    button {
+      background-color: $color-grey;
+      display: block;
+      overflow: hidden;
+      width: 12px;
+      height: 12px;
+      padding: 0;
+      border: none;
+      border-radius: 50%;
+      white-space: nowrap;
+      text-indent: 12px;
+    }
+
+    .slick-active button {
+      background-color: $color-thunderbird;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@include max-screen($screen-sm-max) {
+  .layout-main.is-blur {
+    filter: blur(3px);
+    transition: 0.3s ease-out;
+  }
+
+  .layout-menu {
+    position: absolute;
+    top: 45px;
+    z-index: 9999;
+    width: 100%;
+  }
+
+}
+@include min-screen($screen-md-min) {
+  .layout-header-wrapper {
+    height: 70px;
+  }
+  .layout-header-logo {
+    padding: 5px;
+    width: 100%;
+    background-color: $color-white;
+    opacity: 0.8;
+    img {
+      width: 100%;
+      height: 60px;
+    }
+  }
+
+  .layout-menu-button {
+    display: none;
+  }
+
+  .layout-menu {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+}

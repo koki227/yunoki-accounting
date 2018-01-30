@@ -1,0 +1,6 @@
+@include min-screen($screen-md-min) {
+  .view-services .views-row {
+    width: calc(50% - 25px);
+    margin-bottom: 50px;
+  }
+}

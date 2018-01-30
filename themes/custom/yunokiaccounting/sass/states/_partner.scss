@@ -1,0 +1,16 @@
+@include min-screen($screen-md-min) {
+  .node--type-hatona {
+    .node__content {
+      display: flex;
+      justify-content: center;
+    }
+
+    .field--name-field-image {
+      padding: 0 50px;
+    }
+
+    .field--name-body {
+      padding: 0 50px;
+    }
+  }
+}

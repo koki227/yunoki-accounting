@@ -1,0 +1,22 @@
+.block-views-blockaccess-block-1 {
+  @include full-width;
+  padding-top: 50px;
+  padding-bottom: 50px; 
+  background: #f2f0ef;
+}
+.view-access {
+  background: $color-white;
+  .views-field-field-accessaddress{
+    min-width: 280px;
+    width: 100%;
+    height: 300px;
+    .access__gmap {
+      height: 100%;
+    }
+  }
+
+  .access__address {
+    text-align: left;
+    padding: 1em 2em;
+  }
+}

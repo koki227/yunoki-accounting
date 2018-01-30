@@ -1,0 +1,42 @@
+.contact-message-contact-form {
+  input,
+  select,
+  textarea {
+    border: 1px solid $color-grey;
+    border-radius: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  label,
+  legend {
+    display: inline-block;
+    width: 10em;
+  }
+
+  .form-item-field-contacttype {
+    display: inline-block;
+    & + .form-item-field-contacttype {
+      margin-left: 1em;
+    }
+  }
+
+  .fieldset-legend {
+    font-weight: normal;
+  }
+
+  .form-text,
+  .form-email,
+  .form-select {
+    width: 79%;
+  }
+
+  .form-submit {
+    border: none;
+    width: 200px;
+    height: 60px;
+    background-color: $color-thunderbird;
+    color: $color-white;
+    font-size: 1.2rem;
+  }
+}

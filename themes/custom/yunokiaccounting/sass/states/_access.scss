@@ -1,0 +1,20 @@
+@include min-screen($screen-md-min) {
+  .view-access {
+    .views-row {
+      display: flex;
+    }
+  
+    .views-field-field-accessaddress{
+      min-width: 280px;
+      width: 50%;
+      height: 300px;
+      .access__gmap {
+        height: 100%;
+      }
+    }
+  
+    .access__address {
+      text-align: left;
+    }
+  }
+}

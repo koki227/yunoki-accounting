@@ -1,0 +1,33 @@
+.block-views-blockpartners-view-block-1 {
+  @include full-width;
+  background-color: #fafafa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.view-partners-view {
+  .views-row + .views-row {
+    margin-top: 20px;
+  }
+  .partner_summary {
+    box-sizing: border-box;
+    min-width: 300px;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  .partner_image {
+    padding: 0 50px;
+    img {
+      vertical-align: middle;
+      border-radius: 50%;
+    }
+  }
+
+  .partner_name {
+    margin-top: 0;
+  }
+
+  .partner_description {
+    text-align: left;
+  }
+}

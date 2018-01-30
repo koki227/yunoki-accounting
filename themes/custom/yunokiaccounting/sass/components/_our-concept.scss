@@ -1,0 +1,13 @@
+.our-concept {
+  max-width: $screen-md-min;
+  margin: 0 auto;
+
+  &__body {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  &__author {
+    text-align: right;
+    font-size: 1.4rem;
+  }
+}

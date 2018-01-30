@@ -1,0 +1,28 @@
+# @file
+# Gulp.js configuration file.
+
+# Support browsers.
+# @see https://github.com/ai/browserslist#queries
+browsers: &browsers
+  - Chrome >= 59
+  - Firefox >= 54
+  - Edge >= 15
+  - Safari >= 10.1
+  - Explorer >= 11
+
+# Node-sass options.
+# @see https://www.npmjs.com/package/node-sass#options
+sass:
+  outputStyle: expanded
+  includePaths:
+    - node_modules/breakpoint-sass/stylesheets
+
+# PostCss Style Guide options.
+# @see https://github.com/morishitter/postcss-style-guide#options
+styleGuide:
+  dest: 'styleguide/index.html'
+
+# Autoprefixer options.
+# @see https://github.com/postcss/autoprefixer#options
+autoprefixer:
+  browsers: *browsers

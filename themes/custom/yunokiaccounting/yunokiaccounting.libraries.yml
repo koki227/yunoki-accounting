@@ -1,0 +1,31 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      css/elements.css: {}
+      https://fonts.googleapis.com/icon?family=Material+Icons: { type: external }
+      https://fonts.googleapis.com/earlyaccess/notosansjapanese.css: {type: external}
+    layout:
+      css/layout.css: {}
+    component:
+      css/components.css: {}
+    state:
+      css/states.css: {}
+    #theme:
+     #css/styles.css: {}
+  js:
+    js/main-menu.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+slick:
+  version: 1.x
+  css:
+    component:
+      css/components/slick.css: {}
+  js:
+    js/slick.min.js: {}
+    js/slick.config.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

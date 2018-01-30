@@ -1,0 +1,14 @@
+name: Yunoki Accounting theme
+type: theme
+description: 柚木アカウンティングパートナー用のテーマです。
+core: 8.x
+base theme: classy
+libraries:
+  - yunokiaccounting/global-styling
+regions:
+  header: Header
+  slideshow: Slideshow
+  primary_menu: Primary Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

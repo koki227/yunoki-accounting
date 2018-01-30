@@ -1,0 +1,26 @@
+$color-black: #000;
+$color-white: #fff;
+$color-grey: #575B5B;
+$color-light-grey: #dcdcdc;
+$color-thunderbird: #BC301A;
+
+$font-hannari: "Noto Sans Japanese";
+$font-material-icon: "Material Icons";
+
+// ブレイクポイント.
+// Extra small devices
+$screen-xs-min: 0;
+// Small devices
+$screen-sm-min: 544px;
+// Medium devices
+$screen-md-min: 768px;
+// Large devices
+$screen-lg-min: 992px;
+// Extra large devices
+$screen-xl-min: 1200px;
+
+// メディアクエリーの最大幅が重複しないようにセット.
+$screen-xs-max: $screen-sm-min - 1;
+$screen-sm-max: $screen-md-min - 1;
+$screen-md-max: $screen-lg-min - 1;
+$screen-lg-max: $screen-xl-min - 1;

@@ -1,0 +1,49 @@
+.node--type-service {
+  text-align: left;
+  min-width: 300px;
+  width: 70%;
+  margin: 0 auto;
+
+  .field--type-text-with-summary {
+    padding: 2em 0;
+  }
+
+  .field--name-field-service-example {
+    @include full-width;
+    text-align: center;
+    background: #fafafa;
+    .field__label {
+      display: inline-block;
+      font-size: 1.2rem;
+      letter-spacing: 0.1em;
+      margin: 1em 0;
+    }
+
+    .service-example {
+      display: inline-block;
+      text-align: left;
+      > * {
+        margin-bottom: 1em;
+      }
+    }
+
+    .service-example__label {
+      &::before {
+        content: "■";
+      }
+    }
+    .service-example__item {
+      display: flex;
+      flex-flow: column;
+    }
+
+    .service-example__summary {
+      font-size: 1.1em;
+    }
+
+    .service-example__note {
+      font-size: 0.8em;
+      color: $color-grey;
+    }
+  }
+}
