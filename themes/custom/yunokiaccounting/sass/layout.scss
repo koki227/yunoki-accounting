@@ -1,5 +1,14 @@
 @import "variables";
 @import "mixins/*.scss";
+
+.layout-container,
+.layout-header,
+.layout-content,
+.layout-main,
+.layout-footer {
+  box-sizing: border-box;
+}
+
 .layout-container {
   display: flex;
   flex-direction: column;
