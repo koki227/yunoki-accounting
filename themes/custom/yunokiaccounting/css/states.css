@@ -24,10 +24,7 @@
 @media screen and (max-width: 767px) {
   .layout-main.is-blur {
     -webkit-filter: blur(3px);
-            filter: blur(3px);
-    -webkit-transition: 0.3s ease-out;
-    -o-transition: 0.3s ease-out;
-    transition: 0.3s ease-out; }
+            filter: blur(3px); }
   .layout-menu {
     position: absolute;
     top: 45px;

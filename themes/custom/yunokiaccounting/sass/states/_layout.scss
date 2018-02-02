@@ -1,7 +1,7 @@
 @include max-screen($screen-sm-max) {
   .layout-main.is-blur {
     filter: blur(3px);
-    transition: 0.3s ease-out;
+    // transition: 0.3s ease-out;
   }
 
   .layout-menu {
