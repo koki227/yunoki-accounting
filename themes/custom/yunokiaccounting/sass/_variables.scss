@@ -7,20 +7,20 @@ $color-thunderbird: #BC301A;
 $font-hannari: "Noto Sans Japanese";
 $font-material-icon: "Material Icons";
 
-// ブレイクポイント.
-// Extra small devices
+////
+/// ブレイクポイント.
+////
+// Extra small devices: 0 - 543px.
 $screen-xs-min: 0;
-// Small devices
-$screen-sm-min: 544px;
-// Medium devices
-$screen-md-min: 768px;
-// Large devices
-$screen-lg-min: 992px;
-// Extra large devices
-$screen-xl-min: 1200px;
-
-// メディアクエリーの最大幅が重複しないようにセット.
-$screen-xs-max: $screen-sm-min - 1;
-$screen-sm-max: $screen-md-min - 1;
-$screen-md-max: $screen-lg-min - 1;
-$screen-lg-max: $screen-xl-min - 1;
+$screen-xs-max: 33.9375em;
+// Small devices: 544px - 767px
+$screen-sm-min: 34em;
+$screen-sm-max: 47.9375em;
+// Medium devices: 768px - 991px
+$screen-md-min: 48em;
+$screen-md-max: 61.9375em;
+// Large devices: 992px - 1199px
+$screen-lg-min: 62em;
+$screen-lg-max: 74.9375em;
+// Extra large devices: 1200px -
+$screen-xl-min: 75em;
