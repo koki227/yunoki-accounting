@@ -4,7 +4,7 @@
       attach: function (context, settings) {
   
         $(".view-slideshow .view-content").slick({
-          dots: true,
+          dots: false,
           infinite: true,
           speed: 2000,
           arrows: false,
