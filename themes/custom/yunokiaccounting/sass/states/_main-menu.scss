@@ -3,6 +3,7 @@
     width: 100%;
     background: $color-white;
     transition: all 0.5s;
+    transform: translate3d(0, 0, 0);
   
     .menu {
       box-sizing: border-box;
@@ -28,6 +29,7 @@
           padding 0.3s ease-out,
           opacity 0.1s ease-out,
           visibility 0.1s ease-out;
+        transform: translate3d(0, 0, 0);
       }
     }
   }
@@ -47,6 +49,7 @@
           padding 0.3s,
           opacity 0.1s ease-out,
           visibility 0.1s ease-out;
+        transform: translate3d(0, 0, 0);
         
         &:active {
           background-color: rgba($color-thunderbird, 0.5);
