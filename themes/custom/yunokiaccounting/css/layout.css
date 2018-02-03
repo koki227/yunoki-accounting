@@ -74,9 +74,8 @@
   text-align: center;
   -webkit-filter: blur(0);
           filter: blur(0);
-  -webkit-transition: 0.3s ease-out;
-  -o-transition: 0.3s ease-out;
-  transition: 0.3s ease-out; }
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
 
 .layout-footer {
   width: 100%;
