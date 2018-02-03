@@ -26,10 +26,15 @@
     -webkit-filter: blur(3px);
             filter: blur(3px); }
   .layout-menu {
-    position: absolute;
+    position: fixed;
     top: 45px;
     z-index: 9999;
-    width: 100%; } }
+    width: 100%; }
+  .layout-header {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
+    top: 0; } }
 
 @media screen and (min-width: 48em) {
   .layout-header-wrapper {

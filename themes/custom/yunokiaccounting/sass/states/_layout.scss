@@ -5,10 +5,16 @@
   }
 
   .layout-menu {
-    position: absolute;
+    position: fixed;
     top: 45px;
     z-index: 9999;
     width: 100%;
+  }
+
+  .layout-header {
+    position: sticky;
+    z-index: 9999;
+    top: 0;
   }
 
 }
