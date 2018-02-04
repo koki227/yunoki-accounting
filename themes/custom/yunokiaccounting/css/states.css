@@ -12,6 +12,17 @@
   .view-access .access__address {
     text-align: left; } }
 
+@media screen and (max-width: 47.9375em) {
+  .contact-message-contact-form {
+    text-align: left; }
+    .contact-message-contact-form .form-text,
+    .contact-message-contact-form .form-email,
+    .contact-message-contact-form .form-select,
+    .contact-message-contact-form .form-textarea-wrapper {
+      width: 100%; }
+    .contact-message-contact-form .form-actions {
+      text-align: center; } }
+
 @media screen and (min-width: 48em) {
   h2 {
     font-size: 2rem;

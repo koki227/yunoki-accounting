@@ -20,39 +20,41 @@
     text-align: left;
     padding: 1em 2em; }
 
-.contact-message-contact-form input,
-.contact-message-contact-form select,
-.contact-message-contact-form textarea {
-  border: 1px solid #575B5B;
-  border-radius: 5px;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em; }
-
-.contact-message-contact-form label,
-.contact-message-contact-form legend {
-  display: inline-block;
-  width: 10em; }
-
-.contact-message-contact-form .form-item-field-contacttype {
-  display: inline-block; }
-  .contact-message-contact-form .form-item-field-contacttype + .form-item-field-contacttype {
-    margin-left: 1em; }
-
-.contact-message-contact-form .fieldset-legend {
-  font-weight: normal; }
-
-.contact-message-contact-form .form-text,
-.contact-message-contact-form .form-email,
-.contact-message-contact-form .form-select {
-  width: 79%; }
-
-.contact-message-contact-form .form-submit {
-  border: none;
-  width: 200px;
-  height: 60px;
-  background-color: #BC301A;
-  color: #fff;
-  font-size: 1.2rem; }
+.contact-message-contact-form {
+  max-width: 800px;
+  margin: 0 auto; }
+  .contact-message-contact-form input,
+  .contact-message-contact-form select,
+  .contact-message-contact-form textarea {
+    border: 1px solid #575B5B;
+    border-radius: 5px;
+    padding: 0.5em;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .contact-message-contact-form label,
+  .contact-message-contact-form legend {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 10em; }
+  .contact-message-contact-form .form-item-field-contacttype {
+    display: inline-block;
+    width: 100%; }
+  .contact-message-contact-form .fieldset-legend {
+    font-weight: normal; }
+  .contact-message-contact-form .form-text,
+  .contact-message-contact-form .form-email,
+  .contact-message-contact-form .form-select,
+  .contact-message-contact-form .form-textarea-wrapper {
+    display: inline-block;
+    width: 79%; }
+  .contact-message-contact-form .form-submit {
+    border: none;
+    width: 200px;
+    height: 60px;
+    background-color: #BC301A;
+    color: #fff;
+    font-size: 1.2rem; }
 
 .copyright {
   text-align: center;

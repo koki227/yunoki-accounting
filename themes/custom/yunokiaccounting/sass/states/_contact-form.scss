@@ -1,0 +1,15 @@
+@include max-screen($screen-sm-max) {
+  .contact-message-contact-form {
+    text-align: left;
+    .form-text,
+    .form-email,
+    .form-select,
+    .form-textarea-wrapper {
+      width: 100%;
+    }
+
+    .form-actions {
+      text-align: center;
+    }
+  }
+}
