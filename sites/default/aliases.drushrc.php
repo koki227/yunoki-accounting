@@ -1,5 +1,14 @@
 <?php
 
+$aliases['prod'] = array(
+  'remote-host' => 'ssh476.lolipop.jp',
+  'remote-user' => 'lolipop.jp-yunokicpaoffice',
+  'root' => '/home/users/1/lolipop.jp-yunokicpaoffice/web/yunokicpa.com',
+  'uri' => 'http://yunokicpa.com',
+  'path-aliases' => array(
+    '%drush-script' => '/home/users/1/lolipop.jp-yunokicpaoffice/vendor/bin/drush',
+  ),
+);
 $aliases['dev'] = array(
   'remote-host' => 'ssh476.lolipop.jp',
   'remote-user' => 'lolipop.jp-yunokicpaoffice',
